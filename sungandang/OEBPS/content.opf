@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+    <!--accessibility options-->
+    <dc:title>학교 내 갈등, 이렇게 해결하세요</dc:title>
+    <dc:creator opf:role="aut">최우성</dc:creator>
+    <dc:language>ko</dc:language>
+    <dc:date opf:event="modification">2025-02-13</dc:date>
+    <dc:publisher>성안당</dc:publisher>
+    <dc:identifier opf:scheme="ISBN">978-89-315-9497-3</dc:identifier>
+    <dc:rights>이 책의 어느 부분도 저작권자나 발행인의 승인 문서 없이 일부 또는 전부를 사진 복사나 디스크 복사 및 기타 정보 재생 시스템을 비롯하여 현재 알려지거나 향후 발명될 어떤 전기적, 기계적 또는 다른 수단을 통해 복사하거나 재생하거나 이용할 수 없음.</dc:rights>
+    <meta name="cover" content="cover.jpg" />
+    <meta content="0.8.7" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="Text/001.xhtml" id="x001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/008.xhtml" id="x008.xhtml" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/003.xhtml" id="x003.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/004.xhtml" id="x004.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/005.xhtml" id="x005.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/006.xhtml" id="x006.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/007.xhtml" id="x007.xhtml" media-type="application/xhtml+xml" />
+    <item href="Styles/Style0001.css" id="Style0001.css" media-type="text/css" />
+    <item href="Fonts/KoPubWorldBatangBold.ttf" id="KoPubWorldBatangBold.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/KoPubWorldBatangLight.ttf" id="KoPubWorldBatangLight.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/KoPubWorldDotumBold.ttf" id="KoPubWorldDotumBold.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/KoPubWorldDotumMedium.ttf" id="KoPubWorldDotumMedium.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/NanumSquareRoundOTFEB.otf" id="NanumSquareRoundOTFEB.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Images/001.jpg" id="x001.jpg" media-type="image/jpeg" />
+    <item href="Images/003.jpg" id="x003.jpg" media-type="image/jpeg" />
+    <item href="Images/006.jpg" id="x006.jpg" media-type="image/jpeg" />
+    <item href="Images/011.jpg" id="x011.jpg" media-type="image/jpeg" />
+    <item href="Fonts/GmarketSansBold.otf" id="GmarketSansBold.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/GmarketSansMedium.otf" id="GmarketSansMedium.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="x001.xhtml" />
+    <itemref idref="x003.xhtml" />
+    <itemref idref="x004.xhtml" />
+    <itemref idref="x005.xhtml" />
+    <itemref idref="x006.xhtml" />
+    <itemref idref="x007.xhtml" />
+    <itemref idref="x008.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/001.xhtml" title="Cover" type="cover" />
+  </guide>
+</package>
