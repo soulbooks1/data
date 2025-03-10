@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+
+
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+
+
+p {
+	font-family:"바탕l";
+	font-size: 1em;
+	text-indent:1em;
+	text-align:justify;
+	line-height:2em;
+	margin:0;
+	padding:0;
+	word-break:break-all;
+}
+
+
+
+@font-face { font-family: "돋움m"; src: url(../Fonts/KoPubWorldDotumMedium.ttf); }
+@font-face { font-family: "돋움b"; src: url(../Fonts/KoPubWorldDotumBold.ttf); }
+@font-face { font-family: "바탕l"; src: url(../Fonts/KoPubWorldBatangLight.ttf); }
+@font-face { font-family: "바탕m"; src: url(../Fonts/KoPubWorldBatangMedium.ttf); }
+
+
+@font-face { font-family: "레페리"; src: url(../Fonts/LeferiPointSpecial.otf); }
+
+@font-face { font-family: "프리"; src: url(../Fonts/Freesentation-8ExtraBold.ttf); }
+
+@font-face { font-family: "프리2"; src: url(../Fonts/Freesentation-9Black.ttf); }
+
+
+
+.db{font-family: "돋움b";}
+.w100{
+	width:auto !important;
+	max-width:100% !important;
+	text-align:center;
+	margin:0 auto;
+}
+h3, h4, h5, h6{
+	font-weight:normal;
+}
+.bar{
+	font-size:0.9em;
+}
+.head{
+	font-family:"레페리";
+	font-weight:600;
+	font-size:1.3em;
+	text-indent:0;
+	text-align:right;
+	line-height:1.5em !important;
+	margin-bottom:-15px;
+	position:relative;
+	z-index:1;
+	top:-25px;
+}
+.num{
+	display:inline-block;
+	font-family:"프리2";
+	font-size:1.35em;
+	text-indent:0;
+	line-height:1em;
+	color:#00623c;
+	background-color:#ffffff;
+	padding-right:10px;
+}
+.txtdr{
+	font-family:"돋움m";
+	font-size:0.85em;
+	text-indent:0;
+	text-align:right;
+	margin-top:1em;
+}
+.ul{
+	position:relative;
+	z-index:-1;
+	border-top:1px solid #000000;
+	width:100%;
+	top:-6px;
+}
+.hc{
+	width:62px;
+	margin-right:0;
+	margin-left:auto;
+	margin-top:1em;
+}
+.tright{
+	line-height:0.85em;
+	text-indent:0;
+	text-align:right;
+	margin-right:30px;
+}
+.wh{	
+	background-color:#ffffff;
+	padding-right:27px;
+	padding-left:10px;
+}
+.pre{
+	font-family:"돋움b";
+	font-size:0.95em;
+	text-indent:0;
+	margin-left:1.05em;
+	line-height:1.7em !important;
+	color:#996e6e;
+}
+.pret{
+	font-family:"바탕m";
+	font-size:1.3em;
+	text-indent:0;
+	line-height:1.7em;
+	margin-left:0.75em;
+	margin-top:5px;
+}
+
+
+.co1{
+	color:#008d5a;
+}
+.co2{
+	color:#c75e19;
+}
+.co3{
+	color:#513487;
+}
+a:link {
+	color:inherit;
+	letter-spacing:0pt;
+	text-decoration:none;
+}
+a:visited {
+	color:inherit;
+	letter-spacing:0pt;
+	text-decoration:none;
+}
+a:active {
+	color:inherit;
+	letter-spacing:0pt;
+	text-decoration:none;
+}
+a:hover {
+	color:red;
+	letter-spacing:0pt;
+	text-decoration:none;
+}
